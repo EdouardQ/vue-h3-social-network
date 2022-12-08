@@ -5,6 +5,11 @@
 yarn install
 ```
 
+### Json Server
+```
+json-server data/db.json --watch --port=3400
+```
+
 ### Compiles and hot-reloads for development
 ```
 yarn serve
