@@ -1,29 +1,39 @@
 # vue-h3-social-network
 
-## Project setup
+This template should help get you started developing with Vue 3 in Vite.
+
+## Project Setup
+
+```sh
+npm install
 ```
-yarn install
+
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
 ```
 
 ### Json Server
-```
+
+```sh
 json-server data/db.json --watch --port=3400
 ```
 
-### Compiles and hot-reloads for development
-```
-yarn serve
+### Compile and Minify for Production
+
+```sh
+npm run build
 ```
 
-### Compiles and minifies for production
-```
-yarn build
+### Run Unit Tests with [Vitest](https://vitest.dev/)
+
+```sh
+npm run test:unit
 ```
 
-### Lints and fixes files
-```
-yarn lint
-```
+### Lint with [ESLint](https://eslint.org/)
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```sh
+npm run lint
+```
